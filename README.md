@@ -42,7 +42,7 @@ fastapi-prod-app/
 └── README.md
 ----
 
-# Create .env file
+## Create .env file
 
 ```bash
 POSTGRES_USER=admin
@@ -52,14 +52,14 @@ REDIS_HOST=redis
 REDIS_PORT=6379
 ```
 
-# Build and run the stack
+## Build and run the stack
 
 ```bash
 docker-compose up --build
 ```
 ---
 
-# Security Scan
+## Security Scan
 
 ```bash
 trivy image fastapi-prod-app > trivy-report.txt
@@ -68,5 +68,6 @@ trivy image fastapi-prod-app > trivy-report.txt
  ## Architecture Diagram
 
  ![image](https://github.com/user-attachments/assets/87123f40-5bdd-446a-87aa-59e15ae616a1)
+
 
 
