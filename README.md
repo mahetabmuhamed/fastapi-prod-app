@@ -44,19 +44,22 @@ fastapi-prod-app/
 
 Create .env file
 
-```POSTGRES_USER=admin
+```bash
+POSTGRES_USER=admin
 POSTGRES_PASSWORD=admin123
 POSTGRES_DB=app_db
 REDIS_HOST=redis
-REDIS_PORT=6379
+REDIS_PORT=6379```
 
 ---
 
 Build and run the stack
 
-```docker-compose up --build
+```bash
+docker-compose up --build```
 ---
 
 ## Security Scan
 
-```trivy image fastapi-prod-app > trivy-report.txt
+```bash
+trivy image fastapi-prod-app > trivy-report.txt```
