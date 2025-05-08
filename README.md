@@ -69,5 +69,15 @@ trivy image fastapi-prod-app > trivy-report.txt
 
  ![image](https://github.com/user-attachments/assets/87123f40-5bdd-446a-87aa-59e15ae616a1)
 
+## outputs
+
+![image](https://github.com/user-attachments/assets/0d64cb5c-837d-461c-96a3-f8c2476883b6)
+
+
+![image](https://github.com/user-attachments/assets/32fd0d91-58d4-4461-b6a8-a8d802abb573)
+
+
+![image](https://github.com/user-attachments/assets/0dac4c10-e896-45e9-a11e-5b565ceb4769)
+
 
 
