@@ -40,3 +40,17 @@ fastapi-prod-app/
 ├── Dockerfile # Multi-stage FastAPI build
 ├── requirements.txt
 └── README.md
+
+
+Create .env file
+
+```POSTGRES_USER=admin
+POSTGRES_PASSWORD=admin123
+POSTGRES_DB=app_db
+REDIS_HOST=redis
+REDIS_PORT=6379
+```
+Build and run the stack
+
+```docker-compose up --build
+```
