@@ -56,10 +56,12 @@ REDIS_PORT=6379
 Build and run the stack
 
 ```bash
-docker-compose up --build```
+docker-compose up --build
+```
 ---
 
 ## Security Scan
 
 ```bash
-trivy image fastapi-prod-app > trivy-report.txt```
+trivy image fastapi-prod-app > trivy-report.txt
+```
