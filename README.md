@@ -40,7 +40,7 @@ fastapi-prod-app/
 ├── Dockerfile # Multi-stage FastAPI build
 ├── requirements.txt
 └── README.md
-
+----
 
 Create .env file
 
@@ -52,10 +52,8 @@ REDIS_PORT=6379
 ```
 Build and run the stack
 
-```docker-compose up --build
-```
+`docker-compose up --build`
 ---
 ## Security Scan
 
-```trivy image fastapi-prod-app > trivy-report.txt
-```
+`trivy image fastapi-prod-app > trivy-report.txt`
